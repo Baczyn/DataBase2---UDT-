@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="69cb7549-ffb1-4cb1-b0a6-d719d68b1bdb" name="Administrator@MSSQLSERVER 2020-05-27 15:03:50" runUser="MSSQLSERVER\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="9cf3e93b-821e-4a04-af93-c9828a6f3894">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestResults\Administrator_MSSQLSERVER 2020-05-27 15_03_50">
+      <DeploymentItem filename="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\ProjectAppFirma\bin\Debug\ProjectAppFirma.exe" />
+      <DeploymentItem filename="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjektFIRMAv2\ProjektFIRMAv2\bin\Debug\SqlClassLibrary.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="34" executed="34" passed="34" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>There is already an object named 'pracownik' in the database.
+Cannot drop the table 'pracownik', because it does not exist or you do not have permission.
+Cannot drop the table 'telefon', because it does not exist or you do not have permission.
+Cannot drop the table 'prac_sprzet', because it does not exist or you do not have permission.
+Cannot drop the table 'samochod', because it does not exist or you do not have permission.
+Cannot drop the table 'laptop', because it does not exist or you do not have permission.
+</StdOut>
+    </Output>
+  </ResultSummary>
+  <Times creation="2020-05-27T15:03:50.0308908+02:00" queuing="2020-05-27T15:03:50.5068908+02:00" start="2020-05-27T15:03:50.7588908+02:00" finish="2020-05-27T15:03:53.5138908+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestValidatePesel" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="b01f0938-d45b-c76d-f0bf-d19de5253649">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2662709f-bc13-49b6-b372-6bddd3cc33aa" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.PersonTest, TestApp" name="TestValidatePesel" />
+    </UnitTest>
+    <UnitTest name="ExecuteUpadteTest" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="00798cda-76b8-5ba4-9d64-12e00a0929d0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ca5033cb-1c9d-4d54-8882-debe823de0a5" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.InsertTest, TestApp" name="ExecuteUpadteTest" />
+    </UnitTest>
+    <UnitTest name="TestGetNr" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="fc0a3697-f26a-63ac-966f-b2a50ee554d0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4f4fb491-edb7-41a3-a4ca-f0928129a27b" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.CarTest, TestApp" name="TestGetNr" />
+    </UnitTest>
+    <UnitTest name="TestAccountNrGetAccountNumber" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="a872d13d-0210-813a-3c8a-f3df3b572c1f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="38a9be2f-95dc-47d0-a54d-744078b80ab5" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.AccountNrTest, TestApp" name="TestAccountNrGetAccountNumber" />
+    </UnitTest>
+    <UnitTest name="TestLaptopToString" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="8c9497b0-f08f-1818-0fd3-99526db1bf73">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d1f0b0f7-ed97-4f50-a5e9-fc856326d73d" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.LaptopTest, TestApp" name="TestLaptopToString" />
+    </UnitTest>
+    <UnitTest name="TestExecuteDeleteInvalidID" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="3190b05d-093d-0707-2ebb-27f6c9933155">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="105a1555-7c1c-4458-a1c7-d9a99adee5de" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.DeleteTest, TestApp" name="TestExecuteDeleteInvalidID" />
+    </UnitTest>
+    <UnitTest name="TestValidateSex" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="c91304a9-8e03-74ee-1c0b-a270369c76de">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0f3831bb-0d65-4a8d-8a6f-27e34e63aec7" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.PersonTest, TestApp" name="TestValidateSex" />
+    </UnitTest>
+    <UnitTest name="TestLocationToString" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="8955f208-4888-3441-d4ed-9636bda5c1ab">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="dfbbdf86-5c9c-4501-a7c2-4c3a05eefd85" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.LcoationTest, TestApp" name="TestLocationToString" />
+    </UnitTest>
+    <UnitTest name="TestPersonGetSurname" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="4435a2b8-b3e2-04e0-5e7a-9fbc34a070a2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="78b4ce1f-76fa-4d74-8b9b-3f0717c2e462" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.PersonTest, TestApp" name="TestPersonGetSurname" />
+    </UnitTest>
+    <UnitTest name="ExecuteInsertTest" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="ee459f0e-d9d9-a221-a77d-06db1856e7ef">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3a1e6ba3-8466-4bf0-aa43-49b4119bf09e" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.InsertTest, TestApp" name="ExecuteInsertTest" />
+    </UnitTest>
+    <UnitTest name="TestPeselNotExists" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="01ed0655-ba7f-2cc1-ea76-ef83f1e62023">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c6258e56-79cf-4dfd-8cc7-8355c2fcf7ef" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.InsertTest, TestApp" name="TestPeselNotExists" />
+    </UnitTest>
+    <UnitTest name="TestValidate" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="3ae458e2-06f2-a44a-7a36-9335b27c5bf8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e102c5d5-a6b4-4ddf-a576-17e27b6f10e9" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.AccountNrTest, TestApp" name="TestValidate" />
+    </UnitTest>
+    <UnitTest name="TestWorkerExistsNotInEquipment" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="1964eecc-2c70-8e50-1b79-a3a15d9da58b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="78731a49-8f76-4ec2-9b5e-fa7ff5995a5f" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.InsertTest, TestApp" name="TestWorkerExistsNotInEquipment" />
+    </UnitTest>
+    <UnitTest name="TestAccountNrToString" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="2726ae30-e08b-2892-3e78-b4b0d17f4417">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="041d789f-57b8-4a69-b6d3-4de986322079" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.AccountNrTest, TestApp" name="TestAccountNrToString" />
+    </UnitTest>
+    <UnitTest name="Test2ExecuteSelect" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="8a7fd079-7479-4ed9-7ada-20a4357d237c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5bee37a5-f1bc-4aff-844f-a7eccb5f5aec" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.SelectTest, TestApp" name="Test2ExecuteSelect" />
+    </UnitTest>
+    <UnitTest name="TestExecuteSelectInvalidCommand" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="a7b5bc43-25b6-7146-7bb1-6165c5840e05">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="54013065-60e4-4ef7-9f91-8a80fdea997d" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.SelectTest, TestApp" name="TestExecuteSelectInvalidCommand" />
+    </UnitTest>
+    <UnitTest name="TestPhoneGetPhoneNumber" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="010af7a3-396f-1a1a-a545-1e83aab76373">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7205aabf-b683-4ef3-a805-9ae6d69e8079" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.PhoneTest, TestApp" name="TestPhoneGetPhoneNumber" />
+    </UnitTest>
+    <UnitTest name="TestPhoneNrExistsTest" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="f78d2c80-af17-be5a-ad13-d68955bad291">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1d1debf8-374e-4ac8-b2b2-aa470a75dc0e" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.InsertTest, TestApp" name="TestPhoneNrExistsTest" />
+    </UnitTest>
+    <UnitTest name="TestWorkerExistsInEquipment" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="54a4d0b3-776e-bd48-4d6c-5c896a3be207">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="14c78377-9c39-47e3-b247-bd3dbe4bb4c3" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.InsertTest, TestApp" name="TestWorkerExistsInEquipment" />
+    </UnitTest>
+    <UnitTest name="TestExecuteSelect" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="1de299eb-c34c-c1a2-ac1a-2cbf40a3da73">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5d8161c7-d73a-4bce-81e7-c130774c6140" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.SelectTest, TestApp" name="TestExecuteSelect" />
+    </UnitTest>
+    <UnitTest name="TestExecuteDeleteValidID" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="f59cd998-6a5a-64d7-18aa-5e6589065937">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f549866d-bec7-4a73-a6b9-d96529c7f4c1" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.DeleteTest, TestApp" name="TestExecuteDeleteValidID" />
+    </UnitTest>
+    <UnitTest name="TestValidate" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="2ade9d0b-b13c-4343-c389-48ee7d1dfcc2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="74d2f690-3ee9-4131-89f9-06fdd098ee7a" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.PhoneTest, TestApp" name="TestValidate" />
+    </UnitTest>
+    <UnitTest name="ValidateFirstTwoChars" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="09f37b8a-a56b-60c2-741e-3b8087198566">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="49f9cc93-d0a7-43a9-a340-0613c03c5bc6" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.CarTest, TestApp" name="ValidateFirstTwoChars" />
+    </UnitTest>
+    <UnitTest name="TestPhoneToString" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="1082c53a-e79e-766c-b6b1-4ea3f6029952">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f1373736-38b0-4c65-9dce-0da98abf7c76" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.PhoneTest, TestApp" name="TestPhoneToString" />
+    </UnitTest>
+    <UnitTest name="Validate" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="79c180ec-5244-46d5-3052-6b767e21ed7f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="705a2f7e-3ac3-4d45-86a3-658d63cc485c" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.CarTest, TestApp" name="Validate" />
+    </UnitTest>
+    <UnitTest name="TestPersonToString" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="ed1d5123-7925-4302-2831-6ef440c6d1e3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5d2efa9d-230f-4942-a941-f2ed5ed39dfd" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.PersonTest, TestApp" name="TestPersonToString" />
+    </UnitTest>
+    <UnitTest name="TestPeselExists" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="3aba6f45-a8dc-d812-4dea-e428d4dd99dc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="588a0d11-7be6-4763-bacc-a7d9b576f012" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.InsertTest, TestApp" name="TestPeselExists" />
+    </UnitTest>
+    <UnitTest name="TestPersonGetPesel" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="cdbbdca7-43bb-ef50-8cc9-e92d1d6e5b48">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="89ea6922-90b6-499a-aa77-daeaac4fe9e6" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.PersonTest, TestApp" name="TestPersonGetPesel" />
+    </UnitTest>
+    <UnitTest name="TestExecuteSelectInvalidCommand2" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="d2b8f167-d84e-f57d-16a7-6b0a8c9cf3ff">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e73b3bfe-8896-4541-91f6-b26fe0303b53" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.SelectTest, TestApp" name="TestExecuteSelectInvalidCommand2" />
+    </UnitTest>
+    <UnitTest name="TestAccountNrToString" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="2640a7bb-2294-c9d8-7d7e-5dc264314e72">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f6b4cb71-c04c-4d7a-9ea2-fb9358b26786" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.CarTest, TestApp" name="TestAccountNrToString" />
+    </UnitTest>
+    <UnitTest name="TestValidateNr" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="02f355bd-a689-ee82-55c3-c5649163ab9e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="57f6e977-f1b9-44f6-a6f0-4a156da53f69" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.LcoationTest, TestApp" name="TestValidateNr" />
+    </UnitTest>
+    <UnitTest name="TestValidatePostcode" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="ba6d3c48-5975-1308-2be9-f2c69e91ae91">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9a43959e-f8bc-478b-8baa-8e374dc0e632" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.LcoationTest, TestApp" name="TestValidatePostcode" />
+    </UnitTest>
+    <UnitTest name="TestExecuteDeleteInValidCommand" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="33af7c73-d304-1318-7fdc-76887e5e17e6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3cda56f3-53d3-49a6-ba6a-07e90c7cc2e9" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.DeleteTest, TestApp" name="TestExecuteDeleteInValidCommand" />
+    </UnitTest>
+    <UnitTest name="TestPhoneNrNotExistsTest" storage="c:\users\administrator\desktop\bazydanychii\projektmikolajbaczynski\projectappfirma\testapp\bin\debug\testapp.dll" id="605b845e-d8c7-4d8b-5192-86b4ff61b614">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2c936a59-f345-487c-aa96-80b0445206d7" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ProjectTestFIRMA.InsertTest, TestApp" name="TestPhoneNrNotExistsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00798cda-76b8-5ba4-9d64-12e00a0929d0" executionId="ca5033cb-1c9d-4d54-8882-debe823de0a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="010af7a3-396f-1a1a-a545-1e83aab76373" executionId="7205aabf-b683-4ef3-a805-9ae6d69e8079" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01ed0655-ba7f-2cc1-ea76-ef83f1e62023" executionId="c6258e56-79cf-4dfd-8cc7-8355c2fcf7ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02f355bd-a689-ee82-55c3-c5649163ab9e" executionId="57f6e977-f1b9-44f6-a6f0-4a156da53f69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09f37b8a-a56b-60c2-741e-3b8087198566" executionId="49f9cc93-d0a7-43a9-a340-0613c03c5bc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1082c53a-e79e-766c-b6b1-4ea3f6029952" executionId="f1373736-38b0-4c65-9dce-0da98abf7c76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1964eecc-2c70-8e50-1b79-a3a15d9da58b" executionId="78731a49-8f76-4ec2-9b5e-fa7ff5995a5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1de299eb-c34c-c1a2-ac1a-2cbf40a3da73" executionId="5d8161c7-d73a-4bce-81e7-c130774c6140" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2640a7bb-2294-c9d8-7d7e-5dc264314e72" executionId="f6b4cb71-c04c-4d7a-9ea2-fb9358b26786" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2726ae30-e08b-2892-3e78-b4b0d17f4417" executionId="041d789f-57b8-4a69-b6d3-4de986322079" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ade9d0b-b13c-4343-c389-48ee7d1dfcc2" executionId="74d2f690-3ee9-4131-89f9-06fdd098ee7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3190b05d-093d-0707-2ebb-27f6c9933155" executionId="105a1555-7c1c-4458-a1c7-d9a99adee5de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33af7c73-d304-1318-7fdc-76887e5e17e6" executionId="3cda56f3-53d3-49a6-ba6a-07e90c7cc2e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3aba6f45-a8dc-d812-4dea-e428d4dd99dc" executionId="588a0d11-7be6-4763-bacc-a7d9b576f012" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ae458e2-06f2-a44a-7a36-9335b27c5bf8" executionId="e102c5d5-a6b4-4ddf-a576-17e27b6f10e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4435a2b8-b3e2-04e0-5e7a-9fbc34a070a2" executionId="78b4ce1f-76fa-4d74-8b9b-3f0717c2e462" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54a4d0b3-776e-bd48-4d6c-5c896a3be207" executionId="14c78377-9c39-47e3-b247-bd3dbe4bb4c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="605b845e-d8c7-4d8b-5192-86b4ff61b614" executionId="2c936a59-f345-487c-aa96-80b0445206d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79c180ec-5244-46d5-3052-6b767e21ed7f" executionId="705a2f7e-3ac3-4d45-86a3-658d63cc485c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8955f208-4888-3441-d4ed-9636bda5c1ab" executionId="dfbbdf86-5c9c-4501-a7c2-4c3a05eefd85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a7fd079-7479-4ed9-7ada-20a4357d237c" executionId="5bee37a5-f1bc-4aff-844f-a7eccb5f5aec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c9497b0-f08f-1818-0fd3-99526db1bf73" executionId="d1f0b0f7-ed97-4f50-a5e9-fc856326d73d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7b5bc43-25b6-7146-7bb1-6165c5840e05" executionId="54013065-60e4-4ef7-9f91-8a80fdea997d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a872d13d-0210-813a-3c8a-f3df3b572c1f" executionId="38a9be2f-95dc-47d0-a54d-744078b80ab5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b01f0938-d45b-c76d-f0bf-d19de5253649" executionId="2662709f-bc13-49b6-b372-6bddd3cc33aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba6d3c48-5975-1308-2be9-f2c69e91ae91" executionId="9a43959e-f8bc-478b-8baa-8e374dc0e632" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c91304a9-8e03-74ee-1c0b-a270369c76de" executionId="0f3831bb-0d65-4a8d-8a6f-27e34e63aec7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdbbdca7-43bb-ef50-8cc9-e92d1d6e5b48" executionId="89ea6922-90b6-499a-aa77-daeaac4fe9e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2b8f167-d84e-f57d-16a7-6b0a8c9cf3ff" executionId="e73b3bfe-8896-4541-91f6-b26fe0303b53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed1d5123-7925-4302-2831-6ef440c6d1e3" executionId="5d2efa9d-230f-4942-a941-f2ed5ed39dfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee459f0e-d9d9-a221-a77d-06db1856e7ef" executionId="3a1e6ba3-8466-4bf0-aa43-49b4119bf09e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f59cd998-6a5a-64d7-18aa-5e6589065937" executionId="f549866d-bec7-4a73-a6b9-d96529c7f4c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f78d2c80-af17-be5a-ad13-d68955bad291" executionId="1d1debf8-374e-4ac8-b2b2-aa470a75dc0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc0a3697-f26a-63ac-966f-b2a50ee554d0" executionId="4f4fb491-edb7-41a3-a4ca-f0928129a27b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ca5033cb-1c9d-4d54-8882-debe823de0a5" testId="00798cda-76b8-5ba4-9d64-12e00a0929d0" testName="ExecuteUpadteTest" computerName="MSSQLSERVER" duration="00:00:00.0003551" startTime="2020-05-27T15:03:50.9398908+02:00" endTime="2020-05-27T15:03:51.1828908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7205aabf-b683-4ef3-a805-9ae6d69e8079" testId="010af7a3-396f-1a1a-a545-1e83aab76373" testName="TestPhoneGetPhoneNumber" computerName="MSSQLSERVER" duration="00:00:00.0115518" startTime="2020-05-27T15:03:51.1868908+02:00" endTime="2020-05-27T15:03:51.2678908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6258e56-79cf-4dfd-8cc7-8355c2fcf7ef" testId="01ed0655-ba7f-2cc1-ea76-ef83f1e62023" testName="TestPeselNotExists" computerName="MSSQLSERVER" duration="00:00:00.0177469" startTime="2020-05-27T15:03:51.2718908+02:00" endTime="2020-05-27T15:03:51.2928908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>98022809154</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="57f6e977-f1b9-44f6-a6f0-4a156da53f69" testId="02f355bd-a689-ee82-55c3-c5649163ab9e" testName="TestValidateNr" computerName="MSSQLSERVER" duration="00:00:00.0055368" startTime="2020-05-27T15:03:51.2958908+02:00" endTime="2020-05-27T15:03:51.3118908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="49f9cc93-d0a7-43a9-a340-0613c03c5bc6" testId="09f37b8a-a56b-60c2-741e-3b8087198566" testName="ValidateFirstTwoChars" computerName="MSSQLSERVER" duration="00:00:00.0008467" startTime="2020-05-27T15:03:51.3148908+02:00" endTime="2020-05-27T15:03:51.3348908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f1373736-38b0-4c65-9dce-0da98abf7c76" testId="1082c53a-e79e-766c-b6b1-4ea3f6029952" testName="TestPhoneToString" computerName="MSSQLSERVER" duration="00:00:00.0041404" startTime="2020-05-27T15:03:51.3388908+02:00" endTime="2020-05-27T15:03:51.3468908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="78731a49-8f76-4ec2-9b5e-fa7ff5995a5f" testId="1964eecc-2c70-8e50-1b79-a3a15d9da58b" testName="TestWorkerExistsNotInEquipment" computerName="MSSQLSERVER" duration="00:00:00.0099113" startTime="2020-05-27T15:03:51.3498908+02:00" endTime="2020-05-27T15:03:51.3628908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d8161c7-d73a-4bce-81e7-c130774c6140" testId="1de299eb-c34c-c1a2-ac1a-2cbf40a3da73" testName="TestExecuteSelect" computerName="MSSQLSERVER" duration="00:00:00.0087610" startTime="2020-05-27T15:03:51.3668908+02:00" endTime="2020-05-27T15:03:51.3888908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>1 Phone: Iphone, 6s, 726617679</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f6b4cb71-c04c-4d7a-9ea2-fb9358b26786" testId="2640a7bb-2294-c9d8-7d7e-5dc264314e72" testName="TestAccountNrToString" computerName="MSSQLSERVER" duration="00:00:00.0049479" startTime="2020-05-27T15:03:51.3938908+02:00" endTime="2020-05-27T15:03:51.4028908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="041d789f-57b8-4a69-b6d3-4de986322079" testId="2726ae30-e08b-2892-3e78-b4b0d17f4417" testName="TestAccountNrToString" computerName="MSSQLSERVER" duration="00:00:00.0046018" startTime="2020-05-27T15:03:51.4048908+02:00" endTime="2020-05-27T15:03:51.4288908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="74d2f690-3ee9-4131-89f9-06fdd098ee7a" testId="2ade9d0b-b13c-4343-c389-48ee7d1dfcc2" testName="TestValidate" computerName="MSSQLSERVER" duration="00:00:00.0006513" startTime="2020-05-27T15:03:51.4328908+02:00" endTime="2020-05-27T15:03:51.4388908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="105a1555-7c1c-4458-a1c7-d9a99adee5de" testId="3190b05d-093d-0707-2ebb-27f6c9933155" testName="TestExecuteDeleteInvalidID" computerName="MSSQLSERVER" duration="00:00:00.0134014" startTime="2020-05-27T15:03:51.4398908+02:00" endTime="2020-05-27T15:03:51.4568908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Błąd!
+Podaj poprawne id</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3cda56f3-53d3-49a6-ba6a-07e90c7cc2e9" testId="33af7c73-d304-1318-7fdc-76887e5e17e6" testName="TestExecuteDeleteInValidCommand" computerName="MSSQLSERVER" duration="00:00:00.0061386" startTime="2020-05-27T15:03:51.4598908+02:00" endTime="2020-05-27T15:03:51.4698908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="588a0d11-7be6-4763-bacc-a7d9b576f012" testId="3aba6f45-a8dc-d812-4dea-e428d4dd99dc" testName="TestPeselExists" computerName="MSSQLSERVER" duration="00:00:00.0036096" startTime="2020-05-27T15:03:51.4718908+02:00" endTime="2020-05-27T15:03:51.4778908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>98092809154</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e102c5d5-a6b4-4ddf-a576-17e27b6f10e9" testId="3ae458e2-06f2-a44a-7a36-9335b27c5bf8" testName="TestValidate" computerName="MSSQLSERVER" duration="00:00:00.0010314" startTime="2020-05-27T15:03:51.4808908+02:00" endTime="2020-05-27T15:03:51.4868908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="78b4ce1f-76fa-4d74-8b9b-3f0717c2e462" testId="4435a2b8-b3e2-04e0-5e7a-9fbc34a070a2" testName="TestPersonGetSurname" computerName="MSSQLSERVER" duration="00:00:00.0030759" startTime="2020-05-27T15:03:51.4878908+02:00" endTime="2020-05-27T15:03:51.4998908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14c78377-9c39-47e3-b247-bd3dbe4bb4c3" testId="54a4d0b3-776e-bd48-4d6c-5c896a3be207" testName="TestWorkerExistsInEquipment" computerName="MSSQLSERVER" duration="00:00:00.0062844" startTime="2020-05-27T15:03:51.5028908+02:00" endTime="2020-05-27T15:03:51.5128908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2c936a59-f345-487c-aa96-80b0445206d7" testId="605b845e-d8c7-4d8b-5192-86b4ff61b614" testName="TestPhoneNrNotExistsTest" computerName="MSSQLSERVER" duration="00:00:00.0030637" startTime="2020-05-27T15:03:51.5158908+02:00" endTime="2020-05-27T15:03:51.5218908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="705a2f7e-3ac3-4d45-86a3-658d63cc485c" testId="79c180ec-5244-46d5-3052-6b767e21ed7f" testName="Validate" computerName="MSSQLSERVER" duration="00:00:00.0001880" startTime="2020-05-27T15:03:51.5248908+02:00" endTime="2020-05-27T15:03:51.5298908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dfbbdf86-5c9c-4501-a7c2-4c3a05eefd85" testId="8955f208-4888-3441-d4ed-9636bda5c1ab" testName="TestLocationToString" computerName="MSSQLSERVER" duration="00:00:00.0057137" startTime="2020-05-27T15:03:51.5308908+02:00" endTime="2020-05-27T15:03:51.5978908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5bee37a5-f1bc-4aff-844f-a7eccb5f5aec" testId="8a7fd079-7479-4ed9-7ada-20a4357d237c" testName="Test2ExecuteSelect" computerName="MSSQLSERVER" duration="00:00:00.0040264" startTime="2020-05-27T15:03:51.6008908+02:00" endTime="2020-05-27T15:03:51.6088908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1f0b0f7-ed97-4f50-a5e9-fc856326d73d" testId="8c9497b0-f08f-1818-0fd3-99526db1bf73" testName="TestLaptopToString" computerName="MSSQLSERVER" duration="00:00:00.0022169" startTime="2020-05-27T15:03:51.6118908+02:00" endTime="2020-05-27T15:03:51.6218908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="54013065-60e4-4ef7-9f91-8a80fdea997d" testId="a7b5bc43-25b6-7146-7bb1-6165c5840e05" testName="TestExecuteSelectInvalidCommand" computerName="MSSQLSERVER" duration="00:00:00.0062726" startTime="2020-05-27T15:03:51.6248908+02:00" endTime="2020-05-27T15:03:51.6338908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="38a9be2f-95dc-47d0-a54d-744078b80ab5" testId="a872d13d-0210-813a-3c8a-f3df3b572c1f" testName="TestAccountNrGetAccountNumber" computerName="MSSQLSERVER" duration="00:00:00.0037235" startTime="2020-05-27T15:03:51.6368908+02:00" endTime="2020-05-27T15:03:51.6438908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2662709f-bc13-49b6-b372-6bddd3cc33aa" testId="b01f0938-d45b-c76d-f0bf-d19de5253649" testName="TestValidatePesel" computerName="MSSQLSERVER" duration="00:00:00.0010298" startTime="2020-05-27T15:03:51.6468908+02:00" endTime="2020-05-27T15:03:51.6528908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a43959e-f8bc-478b-8baa-8e374dc0e632" testId="ba6d3c48-5975-1308-2be9-f2c69e91ae91" testName="TestValidatePostcode" computerName="MSSQLSERVER" duration="00:00:00.0001759" startTime="2020-05-27T15:03:51.6538908+02:00" endTime="2020-05-27T15:03:51.6578908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0f3831bb-0d65-4a8d-8a6f-27e34e63aec7" testId="c91304a9-8e03-74ee-1c0b-a270369c76de" testName="TestValidateSex" computerName="MSSQLSERVER" duration="00:00:00.0003513" startTime="2020-05-27T15:03:51.6588908+02:00" endTime="2020-05-27T15:03:51.6638908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="89ea6922-90b6-499a-aa77-daeaac4fe9e6" testId="cdbbdca7-43bb-ef50-8cc9-e92d1d6e5b48" testName="TestPersonGetPesel" computerName="MSSQLSERVER" duration="00:00:00.0022949" startTime="2020-05-27T15:03:51.6658908+02:00" endTime="2020-05-27T15:03:51.6708908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e73b3bfe-8896-4541-91f6-b26fe0303b53" testId="d2b8f167-d84e-f57d-16a7-6b0a8c9cf3ff" testName="TestExecuteSelectInvalidCommand2" computerName="MSSQLSERVER" duration="00:00:00.0010988" startTime="2020-05-27T15:03:51.6728908+02:00" endTime="2020-05-27T15:03:51.6788908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5d2efa9d-230f-4942-a941-f2ed5ed39dfd" testId="ed1d5123-7925-4302-2831-6ef440c6d1e3" testName="TestPersonToString" computerName="MSSQLSERVER" duration="00:00:00.0027545" startTime="2020-05-27T15:03:51.6798908+02:00" endTime="2020-05-27T15:03:51.6858908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a1e6ba3-8466-4bf0-aa43-49b4119bf09e" testId="ee459f0e-d9d9-a221-a77d-06db1856e7ef" testName="ExecuteInsertTest" computerName="MSSQLSERVER" duration="00:00:00.0001213" startTime="2020-05-27T15:03:51.6888908+02:00" endTime="2020-05-27T15:03:51.6938908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f549866d-bec7-4a73-a6b9-d96529c7f4c1" testId="f59cd998-6a5a-64d7-18aa-5e6589065937" testName="TestExecuteDeleteValidID" computerName="MSSQLSERVER" duration="00:00:00.0016381" startTime="2020-05-27T15:03:51.6958908+02:00" endTime="2020-05-27T15:03:51.6998908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1d1debf8-374e-4ac8-b2b2-aa470a75dc0e" testId="f78d2c80-af17-be5a-ad13-d68955bad291" testName="TestPhoneNrExistsTest" computerName="MSSQLSERVER" duration="00:00:00.0023610" startTime="2020-05-27T15:03:51.7028908+02:00" endTime="2020-05-27T15:03:51.7078908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f4fb491-edb7-41a3-a4ca-f0928129a27b" testId="fc0a3697-f26a-63ac-966f-b2a50ee554d0" testName="TestGetNr" computerName="MSSQLSERVER" duration="00:00:00.0031907" startTime="2020-05-27T15:03:51.7108908+02:00" endTime="2020-05-27T15:03:51.7168908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektFIRMAv2\ProjektFIRMAv2\bin\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektFIRMAv2\ProjektFIRMAv2\bin\Debug\SqlClassLibrary.pdb
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektFIRMAv2\ProjektFIRMAv2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektFIRMAv2\ProjektFIRMAv2\obj\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektFIRMAv2\ProjektFIRMAv2\obj\Debug\SqlClassLibrary.pdb
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjektFIRMAv2\ProjektFIRMAv2\bin\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjektFIRMAv2\ProjektFIRMAv2\bin\Debug\SqlClassLibrary.pdb
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjektFIRMAv2\ProjektFIRMAv2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjektFIRMAv2\ProjektFIRMAv2\obj\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjektFIRMAv2\ProjektFIRMAv2\obj\Debug\SqlClassLibrary.pdb

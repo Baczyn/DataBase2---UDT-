@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\bin\Release\ProjectAppFirma.exe
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\bin\Release\ProjectAppFirma.pdb
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\obj\Release\ProjectAppFirma.exe
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\obj\Release\ProjectAppFirma.pdb

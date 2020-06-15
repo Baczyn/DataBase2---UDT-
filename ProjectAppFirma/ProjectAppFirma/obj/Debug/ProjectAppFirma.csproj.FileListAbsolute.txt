@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\bin\Debug\ProjectAppFirma.exe
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\bin\Debug\ProjectAppFirma.pdb
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\obj\Debug\ProjectAppFirma.exe
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\obj\Debug\ProjectAppFirma.pdb
+C:\Users\Administrator\Desktop\BazyDanychII\ProjectAppFirma\ProjectAppFirma\bin\Debug\ProjectAppFirma.exe.config
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\ProjectAppFirma\bin\Debug\ProjectAppFirma.exe.config
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\ProjectAppFirma\obj\Debug\ProjectAppFirma.exe
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\ProjectAppFirma\obj\Debug\ProjectAppFirma.pdb
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\ProjectAppFirma\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\ProjectAppFirma\bin\Debug\ProjectAppFirma.exe
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\ProjectAppFirma\bin\Debug\ProjectAppFirma.pdb

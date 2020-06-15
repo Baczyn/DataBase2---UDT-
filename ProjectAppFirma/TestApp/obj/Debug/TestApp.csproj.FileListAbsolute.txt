@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.dll
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\TestApp.pdb
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\ProjectAppFirma.exe
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\ProjectAppFirma.pdb
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\bin\Debug\SqlClassLibrary.pdb
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\obj\Debug\TestApp.dll
+C:\Users\Administrator\Desktop\BazyDanychII\ProjektMikolajBaczynski\ProjectAppFirma\TestApp\obj\Debug\TestApp.pdb
